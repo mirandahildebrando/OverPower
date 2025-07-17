@@ -25,6 +25,11 @@ public class Products {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
+    
+    private String category;
+    private Long price;
+    private Integer quantity;
+    
 
     //Impedindo que o nome seja nulos ou em branco
 
